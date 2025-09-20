@@ -1,0 +1,33 @@
+:root {
+  --background-color: #fff;
+  --background-light: #fff;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --primary-color: rgb(255, 114, 5);
+  --text-color: #0A0A0A;
+  --text-light: #575757;
+  --font-size: 16px;
+  --animation-speed: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-size: var(--font-size);
+    font-family: "Roboto", sans-serif;
+}
+
+/* @import "Partials/login.css"; */
